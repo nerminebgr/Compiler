@@ -1,0 +1,36 @@
+$Prog
+{   
+    bool z = vrai;
+    bool t;
+    t = (!z);
+    int x = 0; 
+    float f = 1.2 ;
+    char com = "b";
+    char d = "b";
+    int k = (12 + 2 * 2) % 7;
+
+    x++;
+
+
+    cst max = 100 ; 
+   
+    while (z|(t)) {
+        int y = 0;
+        x = x + 1;
+    }
+
+    while ( x++ == 2) {
+      
+        x = x + y ; 
+        y = x - 1 ;  
+        int r = x * 1 ;
+        int h = x / 1; 
+        int f = x % 1;   
+    }
+      while (x > 0) {
+        int v=0;
+        v = v+1;
+    }
+
+    y-- ; 
+}

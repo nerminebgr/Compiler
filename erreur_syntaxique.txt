@@ -1,0 +1,17 @@
+$Prog
+{
+    /* this is a test program */
+    read("%d",loop);
+	switch (loop)
+            {
+                case 1 :
+                    wr\*ite("loop = 1");
+                    break;
+                case 2 : 
+                    write("loop = 2");
+                    break; 
+                default : 
+                    write("loop>2");
+            }
+
+}
