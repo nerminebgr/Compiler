@@ -1,0 +1,29 @@
+$Prog
+{
+  
+    int tab[2]; 
+    struct enrg {
+        int i ; 
+        float f ; 
+    };
+
+    int i = tab[1] ; 
+    int j = enrg.i ;  
+
+
+	/* this is a test program */
+	int loop = 2;
+	while (loop > 0)
+	{
+        int entier ; 
+        read("%d", &entier);
+		write(" projet comp 2021/2022 ",entier);
+		loop --;
+	}
+    //commentaire de test
+	if (loop == 0)
+	{
+		write (" Test Analyseur Lexical de  Projet compil  ");
+	}
+
+}
