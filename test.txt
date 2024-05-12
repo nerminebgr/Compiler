@@ -1,0 +1,16 @@
+importer "scan.h"
+$Prog
+{
+	/* this is a test program */
+	int loop = 2;
+	while (loop > 0)
+	{
+		write(" projet comp 2021/2022 ");
+		loop --;
+	}
+	//commentaire de test
+	if (loop == 0)
+	{
+		write (" Test Analyseur Lexical de  Projet compil  ");
+	}
+}
